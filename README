@@ -10,14 +10,15 @@ C and C++ compatible
 Copyright (C) 2010 Romain Porte
 This header is under GPL ( for more info see the COPYING file )
      
-=======
- USAGE
-=======
+ _  _ ___ __ _ __ _ ___ 
+| || (_-</ _` / _` / -_)
+ \_,_/__/\__,_\__, \___|
+              |___/     
 
- C :
+C
 
 printf("%sGreen%s\n", TC_Green, TC_Default);
 
- C++ :
+C++
 
 std::cout << TC_Green << "Green" << TC_Default << std::endl;
