@@ -1,0 +1,23 @@
+ _                                _            
+| |_ ___ _ __ _ __ ___   ___ ___ | | ___  _ __ 
+| __/ _ \ '__| '_ ` _ \ / __/ _ \| |/ _ \| '__|
+| ||  __/ |  | | | | | | (_| (_) | | (_) | |   
+ \__\___|_|  |_| |_| |_|\___\___/|_|\___/|_|   
+                                               
+Header for handling UNIX terminal colors
+C and C++ compatible
+
+Copyright (C) 2010 Romain Porte
+This header is under GPL ( for more info see the COPYING file )
+     
+=======
+ USAGE
+=======
+
+ C :
+
+printf("%sGreen%s\n", TC_Green, TC_Default);
+
+ C++ :
+
+std::cout << TC_Green << "Green" << TC_Default << std::endl;
