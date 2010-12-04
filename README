@@ -16,9 +16,49 @@ This header is under GPL ( for more info see the COPYING file )
               |___/     
 
 C
+-
 
 printf("%sGreen%s\n", TC_Green, TC_Default);
 
 C++
+---
 
 std::cout << TC_Green << "Green" << TC_Default << std::endl;
+
+ _ _    _          __                 _         _    
+| (_)__| |_   ___ / _|  ____  _ _ __ | |__  ___| |___
+| | (_-<  _| / _ \  _| (_-< || | '  \| '_ \/ _ \ (_-<
+|_|_/__/\__| \___/_|   /__/\_, |_|_|_|_.__/\___/_/__/
+                           |__/                 
+
+Foreground colors
+-----------------
+
+TC_Black
+TC_Red
+TC_Green
+TC_Orange
+TC_Blue
+TC_Magenta
+TC_Cyan
+TC_White
+
+Background colors
+-----------------
+
+TC_BlackBkg
+TC_RedBkg
+TC_GreenBkg
+TC_OrangeBkg
+TC_BlueBkg
+TC_MagentaBkg
+TC_CyanBkg
+TC_WhiteBkg
+
+Extras
+------
+
+TC_Default
+TC_Bold
+TC_Underline
+TC_Blink
