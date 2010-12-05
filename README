@@ -15,15 +15,25 @@ This header is under GPL ( for more info see the COPYING file )
  \_,_/__/\__,_\__, \___|
               |___/     
 
+First don't forget to include the header file :
+
+ #include "termcolor.h"
+
+or
+
+ #include <termcolor.h>
+
+Then here's a green hello world :
+
 C
 -
 
-printf("%sGreen%s\n", TC_Green, TC_Default);
+printf("%sHello world%s\n", TC_Green, TC_Default);
 
 C++
 ---
 
-std::cout << TC_Green << "Green" << TC_Default << std::endl;
+std::cout << TC_Green << "Hello world" << TC_Default << std::endl;
 
  _ _    _          __                 _         _    
 | (_)__| |_   ___ / _|  ____  _ _ __ | |__  ___| |___
