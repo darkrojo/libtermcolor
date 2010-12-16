@@ -4,8 +4,10 @@
 | ||  __/ |  | | | | | | (_| (_) | | (_) | |   
  \__\___|_|  |_| |_| |_|\___\___/|_|\___/|_|   
                                                
-Header for handling UNIX terminal colors
-C and C++ compatible
+Headers for handling UNIX terminal colors
+
+C compatible (termcolor.h)
+C++ compatible (termcolor.hpp)
 
 Copyright (C) 2010 Romain Porte
-This header is under GPL (for more info see the COPYING file)
+These headers are under GPL (for more info see the COPYING file)
