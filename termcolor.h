@@ -16,8 +16,8 @@
 	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
-#ifndef TERMCOLOR_HPP
-#define TERMCOLOR_HPP
+#ifndef TERMCOLOR_H
+#define TERMCOLOR_H
 
 // Configuration
 #define TC_BEGIN_SYMBOL "\033["
